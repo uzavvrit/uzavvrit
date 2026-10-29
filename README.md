@@ -1,16 +1,29 @@
-## Hi there 👋
+# Анастасия Сухоносова
 
-<!--
-**uzavvrit/uzavvrit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Продуктовая аналитика · SQL · Python**
 
-Here are some ideas to get you started:
+Учусь на втором курсе программы «Мировая экономика» НИУ ВШЭ. Изучаю продуктовую аналитику: поведение пользователей, конверсионные воронки, продуктовые метрики и подходы к проверке гипотез.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+В проектах использую SQL и Python для подготовки данных, расчёта метрик и визуализации результатов. Интересуюсь аналитикой пользовательского пути и A/B-тестированием.
+
+## Проекты
+
+| Проект | Задача | Результаты |
+| --- | --- | --- |
+| [Воронка первого заказа в доставке еды](https://github.com/uzavvrit/food-delivery-activation-analysis) | Анализ пути от регистрации до первой покупки, сегментация по платформам и каналам привлечения | [Аналитический отчёт](https://github.com/uzavvrit/food-delivery-activation-analysis/blob/main/reports/analysis_report.md) |
+
+Проект выполнен на синтетических данных. В репозитории представлены SQL-запросы, генератор событий, Python-скрипты, тесты и воспроизводимые графики.
+
+## Пример анализа
+
+Воронка первого заказа за 7 дней после регистрации: **3 974 из 12 000 пользователей (33,1%)** завершили первый заказ. Наибольшая абсолютная потеря (2 606 пользователей) наблюдается между просмотром ресторана и добавлением блюда в корзину.
+
+![Воронка первого заказа](https://raw.githubusercontent.com/uzavvrit/food-delivery-activation-analysis/main/reports/figures/01_overall_funnel.png)
+
+В [отчёте](https://github.com/uzavvrit/food-delivery-activation-analysis/blob/main/reports/analysis_report.md) отдельно рассмотрены конверсии по шагам, различия между Android и iOS, частота ошибок оплаты и гипотезы для дальнейшего исследования.
+
+## Инструменты и направления
+
+**Данные и визуализация:** SQL (SQLite), Python, pandas, matplotlib, Git, GitHub.
+
+**Аналитика:** конверсионные воронки, сегментация, продуктовые метрики, проверка качества данных, основы A/B-тестирования.
